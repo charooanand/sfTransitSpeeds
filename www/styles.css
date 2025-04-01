@@ -1,0 +1,77 @@
+/* Backgrounds */
+    body, .content-wrapper, .right-side {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+    }
+
+    .main-header, .main-sidebar, .skin-blue .main-header .navbar, .skin-blue .main-header .logo {
+      background-color: #111111 !important;
+    }
+
+    /* Sidebar items */
+    .sidebar-menu > li > a {
+      color: #ffffff !important;
+    }
+
+    .sidebar-menu > li.active > a {
+      background-color: #333333 !important;
+      color: #ffffff !important;
+    }
+
+    /* Boxes and headers */
+    .box {
+      background-color: #1a1a1a !important;
+      color: #ffffff !important;
+      border: 1px solid #444444 !important;
+    }
+
+    .box-header {
+      border-bottom: 1px solid #444444 !important;
+    }
+
+    .box-title {
+      color: #ffffff !important;
+    }
+
+    /* Inputs */
+    .selectize-input, .selectize-dropdown, .form-control {
+      background-color: #222222 !important;
+      color: #ffffff !important;
+      border: 1px solid #555555 !important;
+    }
+
+    /* Scrollbars (optional) */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #111111;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #444444;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #666666;
+    }
+
+    /* Leaflet Legend (Dark Mode) */
+    .leaflet-control {
+      background-color: #1e1e1e !important;
+      color: #ffffff !important;
+      border: 1px solid #444444 !important;
+      box-shadow: 0 2px 6px rgba(255,255,255,0.1);
+      padding: 6px 8px;
+      font: 12px/14px Arial, Helvetica, sans-serif;
+    }
+
+    .leaflet-control i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.85;
+      border-radius: 2px;
+    }

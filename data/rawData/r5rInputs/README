@@ -1,0 +1,14 @@
+README
+
+This network data is too large to upload but this folder contains 3 files, which are inputs to the {r5r} function that computes transit travel times.
+
+The first two are GTFS format data on Muni and BART, respectively.
+
+1. muni_gtfs.zip, which is downloaded from here: https://www.sfmta.com/reports/gtfs-transit-data
+2. bart_gtfs.zip, which is downloaded from here: https://www.bart.gov/schedules/developers/gtfs
+
+The third is a OpenStreetMap (osm) basemap.
+
+3. sf.osm.pbf, which I download from here: https://download.bbbike.org/osm/bbbike/SanFrancisco/
+
+Note that filenames and filetypes are important for compatibility with {r5r}.

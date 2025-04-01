@@ -1,0 +1,17 @@
+# R-related files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rproj
+
+# Data folders
+rsconnect/
+
+# Network files
+*.zip
+*.json
+*.dat
+*.pbf
+*.pbf.mapdb
+*.pbf.mapdb.p
