@@ -41,7 +41,7 @@ ui <- dashboardPage(
                     selectInput("outcome", "Displayed Measure", choices = NULL)
                 ),
                 box(width = 9,
-                    leafletOutput("poiMap", height = 600)  # <--- updated
+                    leafletOutput("poiMap", height = 600) 
                 )
               )
       ),
@@ -55,7 +55,7 @@ ui <- dashboardPage(
                     radioButtons("whichIndex", "", choices = indexChoices)
                 ),
                 box(width = 9,
-                    leafletOutput("indexMap", height = 600)  # <--- updated
+                    leafletOutput("indexMap", height = 600) 
                 )
               )
       )
