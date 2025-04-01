@@ -1,6 +1,6 @@
 <p><strong>🌉🚇 Visualizing transit accessibility across SF</strong></p>
 
-<p>This app is designed for planners and curious transit riders — anyone interested in how BART and MUNI’s network design shapes the transit accessibility landscape of San Francisco.</p>
+<p>This app is designed for SF residents, transit riders and planners — anyone interested in how BART and MUNI’s network design shapes the transit accessibility landscape of San Francisco.</p>
 
 <p><strong>Points of Interest:</strong>
 How long does it take to reach POIs in San Francisco from different neighborhoods using BART and MUNI? Does travel time vary by time of day or day of the week? By combining journey time with straight-line distance, we can visualize the effective transit speed (in miles per hour) from each Census block group to various points of interest across the city.</p>
@@ -19,25 +19,17 @@ This app is built using a suite of R packages tailored for spatial analysis and 
 <a href="https://walker-data.com/tidycensus/" target="_blank">{tidycensus}</a> to download Census geometries. 
 To geocode points of interest (POIs), I rely on 
 <a href="https://jessecambon.github.io/tidygeocoder/" target="_blank">{tidygeocoder}</a>, and for fast straight-line distance calculations, I use 
-<a href="https://cran.r-project.org/package=geosphere" target="_blank">{geosphere}</a>.
-</p>
-
-<p>
-Transit network data comes from <a href="https://gtfs.org/" target="_blank">GTFS</a> feeds provided by 
+<a href="https://cran.r-project.org/package=geosphere" target="_blank">{geosphere}</a>. Transit network data comes from <a href="https://gtfs.org/" target="_blank">GTFS</a> feeds provided by 
 <a href="https://www.sfmta.com/reports/gtfs-transit-data" target="_blank">SFMTA</a> and 
 <a href="https://www.bart.gov/schedules/developers/gtfs" target="_blank">BART</a>. I also incorporate an OpenStreetMap base layer from 
-<a href="https://download.bbbike.org/osm/bbbike/SanFrancisco/" target="_blank">BBBike</a>.
-</p>
-
-<p>
-Transit travel times are computed using 
+<a href="https://download.bbbike.org/osm/bbbike/SanFrancisco/" target="_blank">BBBike</a>. Transit travel times are computed using 
 <a href="https://ipeagit.github.io/r5r/" target="_blank">{r5r}</a>, which integrates GTFS and street network data for multimodal routing. 
 Maps are rendered with 
 <a href="https://rstudio.github.io/leaflet/" target="_blank">{leaflet}</a>, and the app itself is built and deployed using 
 <a href="https://shiny.posit.co/" target="_blank">{shiny}</a>.
 </p>
-
-<a href="http://github.com/charooanand/stTransitSpeeds" target="_blank" style="
+</br>
+<a href="https://github.com/charooanand/sfTransitSpeeds" target="_blank" style="
   display: inline-block;
   background-color: #24292e;
   color: white;
